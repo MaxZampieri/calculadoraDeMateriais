@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de materiais</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <img src="css/icon2.png" alt="icone">
+        </div>
+        <nav>
+            <ul>
+                <a href="https://github.com/MaxZampieri" target="_blank"><img src="css/logo-github.svg" alt=""></a>
+                <a href="https://www.linkedin.com/in/max-zampieri-2bbbb3b3/" target="_blank"><img src="css/logo-linkedin.svg" alt=""></a>
+                <a href="https://api.whatsapp.com/send?phone=5547984979052" target="_blank"><img src="css/logo-whatsapp.svg" alt=""></a>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>Calculadora de materiais</h1>
+        <p>Além de calcular as quantidades ideais de produtos para evitar desperdícios, você também pode descobrir quais são os produtos mais indicados para cada de tipo de aplicação, garantindo uma execução de sucesso.</p>
+    </div>
+    <form class="container1">
+        <div>
+            <label class="label-tipo" for="">Material:</label>
+            <select class="options" name="produtos" id="options">
+                <option value="">Selecione:</option>
+                <option value="10">Tinta Acrílica</option>
+                <option value="20">Tinta Esmalte</option>
+                <option value="15">Massa Corrida</option>
+                <option value="8">Massa Acrílica</option>
+                <option value="12">Selador Acrílico</option>
+                <option value="6">Textura</option>
+            </select>
+        </div>
+        <div>
+            <label class="label-quantidade" for="">Metros ² :</label>
+            <input class="select-m" type="number" name="" id="select-m">
+        </div>
+        <div>
+            <button  class="btn-calcular">Calcular</button>
+        </div>  
+    </form>
+    <div class="total">
+        <label  for="">Total:</label>  
+        <span class="resultado"></span>
+    </div> 
+    <div class="info">
+        <img src="css/info.png" alt="">
+        <p>Todas as informações de rendimento foram obtidas no site</p>
+    </div>
+    <footer>
+        <p>Desenvolvido por Max Zampieri</p>
+    </footer>
+
+       
+    <script src="script.js"></script>
+</body>
+</html>
