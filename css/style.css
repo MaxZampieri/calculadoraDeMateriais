@@ -237,6 +237,9 @@ footer p{
     .info p {
         font-size: 8px;
     }
+    .total {
+        margin-left: 50px;
+    }
     
 }
 @media (max-width: 360px){
