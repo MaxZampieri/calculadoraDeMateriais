@@ -207,16 +207,16 @@ footer p{
         padding: 5px;
     }   
 }
-@media (max-width: 592px) {
+@media (max-width: 614px) {
     .select-m {
         margin-top: 20px;
         
     }
     .btn-calcular {
-        margin-left: 128px;
-    }
-    .icon img {
-        width: 100px;
+        margin-left:20px;
+        margin-top: 20px;
+        width: 308px;
+       
     
     } 
     nav {
@@ -238,6 +238,7 @@ footer p{
         margin-top: 30px;
     
     } 
+    
     .info img {
         width: 11px;
     }
@@ -248,7 +249,8 @@ footer p{
         margin-left: 50px;
     }
     .info img {
-        width: 15px;
+        width: 10px;
+        margin-left: 0;
     }
     .info p {
         font-size: 10px;
@@ -263,6 +265,10 @@ footer p{
         width: 100px;
     
     } 
+    .btn-calcular {
+        width: 290px;
+        margin-left: 0;
+    }
     nav {
         right: 30px;
     }
@@ -299,9 +305,7 @@ footer p{
     footer p {
         font-size: 12px;
     }
-    .btn-calcular {
-        margin-left: 87px;
-    }
+    
 
 }
 
