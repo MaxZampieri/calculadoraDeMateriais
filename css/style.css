@@ -132,7 +132,7 @@ form {
 
 .total label {
     font-size: 25px;
-    font-family: var(--font-secundary);
+    font-family: var(--font-primary);
     font-weight: bold;
     display:inline;
     text-transform: uppercase;
