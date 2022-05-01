@@ -214,6 +214,18 @@ footer p{
     .btn-calcular {
         margin-left: 128px;
     }
+    .icon img {
+        width: 100px;
+    
+    } 
+    nav {
+        right: 30px;
+    }
+    nav img {
+        width: 30px;
+        margin-left: 10px;
+        padding: 5px;
+    }
 }
 @media (max-width: 412px) {
     .container h1 {
@@ -225,6 +237,7 @@ footer p{
     .info p {
         font-size: 8px;
     }
+    
 }
 @media (max-width: 360px){
     .container p {
