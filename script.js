@@ -10,9 +10,16 @@ multiplica.addEventListener("click", function(event){
     document.querySelector(".resultado").innerHTML = total.toFixed(2) + " Litros.";
     
 })
+//Function reset inputs
 function resetForm(){
     with (document) {
         getElementById("select-m").value = "";
         resultado.textContent = ""
     }
 }
+//Function enter keyboard
+document.addEventListener('keypress', function(e){
+    if(e.which == 13){
+      multiplica();
+    }
+  }, false);
