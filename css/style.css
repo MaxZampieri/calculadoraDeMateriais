@@ -161,6 +161,10 @@ form {
 .info img {
     margin-top: 50px;
 }
+.info a {
+    cursor: pointer;
+    text-decoration: underline;
+}
 footer {
     position: absolute;
     background-color: #200F8C;
@@ -174,6 +178,8 @@ footer p{
     color: #fff;
     padding: 10px;
 }
+
+/*=========Responsive=========*/
 
 
 @media (max-width: 768px) {
@@ -212,6 +218,12 @@ footer p{
 @media (max-width: 412px) {
     .container h1 {
         font-size: 35px;
+    }
+    .info img {
+        width: 11px;
+    }
+    .info p {
+        font-size: 8px;
     }
 }
 @media (max-width: 360px){
