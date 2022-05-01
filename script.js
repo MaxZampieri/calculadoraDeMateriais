@@ -10,3 +10,9 @@ multiplica.addEventListener("click", function(event){
     document.querySelector(".resultado").innerHTML = total.toFixed(2) + " Litros.";
     
 })
+function resetForm(){
+    with (document) {
+        getElementById("select-m").value = "";
+        resultado.textContent = ""
+    }
+}

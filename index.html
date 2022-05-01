@@ -27,14 +27,14 @@
     <form class="container1">
         <div>
             <label class="label-tipo" for="">Material:</label>
-            <select class="options" name="produtos" id="options">
+            <select class="options" onclick="resetForm();" name="produtos" id="options">
                 <option value="">Selecione:</option>
-                <option value="10">Tinta Acrílica</option>
-                <option value="20">Tinta Esmalte</option>
-                <option value="15">Massa Corrida</option>
-                <option value="8">Massa Acrílica</option>
-                <option value="12">Selador Acrílico</option>
-                <option value="6">Textura</option>
+                <option value="11.1">Tinta Acrílica</option>
+                <option value="10">Tinta Esmalte</option>
+                <option value="12">Tinta Latex</option>
+                <option value="8">Verniz Sintético</option>
+                <option value="13.8">Selador Acrílico</option>
+                <option value="6">Textura Acrílica</option>
             </select>
         </div>
         <div>
@@ -42,13 +42,13 @@
             <input class="select-m" type="number" name="" id="select-m">
         </div>
         <div>
-            <button  class="btn-calcular">Calcular</button>
+            <button  class="btn-calcular" >Calcular</button>
         </div>  
         
     </form>
     <div class="total">
         <label  for="">Total:</label>  
-        <span class="resultado"></span>
+        <span class="resultado" id="resultado"></span>
     </div> 
     
     <div class="info">
