@@ -1,6 +1,6 @@
-var multiplica = document.querySelector('.btn-calcular');
+var multiplies = document.querySelector('.btn-calcular');
 
-multiplica.addEventListener("click", function(event){
+multiplies.addEventListener("click", function(event){
     event.preventDefault()
     var select = document.querySelector('#options');
     var valor = select.value
@@ -20,6 +20,6 @@ function resetForm(){
 //Function enter keyboard
 document.addEventListener('keypress', function(e){
     if(e.which == 13){
-      multiplica();
+      multiplies();
     }
   }, false);
